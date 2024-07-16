@@ -1,15 +1,11 @@
-
+import Overview from "./components/Overview";
 
 function App() {
-
-
   return (
     <>
-      <div className="font-bold">
-        hi there
-      </div>
+      <Overview/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
