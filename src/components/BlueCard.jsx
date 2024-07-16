@@ -4,7 +4,7 @@ function BlueCard({ title, orderCount, amount }) {
     return (
         <div className="rounded overflow-hidden text-white-500">
 
-            <div className="shadow-custom p-5 grid gap-y-4 bg-blue-700 hover:bg-blue-750">
+            <div className="text-white shadow-custom p-5 grid gap-y-4 bg-blue-700 hover:bg-blue-750">
                 <div className="flex items-center">
                     {title}
                     <div className="pl-2">
@@ -31,7 +31,7 @@ function BlueCard({ title, orderCount, amount }) {
                     )}
                 </div>
             </div>
-            <div className="text-sm bg-blue-900 flex justify-between py-2 px-6">
+            <div className="text-sm text-white bg-blue-900 flex justify-between py-2 px-6">
                 <div>Next payout date:</div>
                 <div>Today, 04:00 PM</div>
             </div>
